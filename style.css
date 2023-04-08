@@ -79,6 +79,12 @@
     cursor: pointer;
 }
 
+.side-nav a{
+    text-decoration: none;
+    color: rgb(214, 205, 205);
+
+}
+
 .text-box{
     margin-top: 20%;
     font-size: 18px;
