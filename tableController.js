@@ -64,15 +64,15 @@
           valueA = parseInt(valueA);
           valueB = parseInt(valueB);
         }
-        else if (valueA.includes("€") && valueB.includes("€")){
+        else if (valueA.includes("£") && valueB.includes("£")){
             let numA = parseFloat(valueA.match(/\d+(\.\d+)?/)[0]);
             let numB = parseFloat(valueB.match(/\d+(\.\d+)?/)[0]);
-            if (valueA.includes('k')) {
+            if (valueA.includes('K')) {
               numA = numA * 1000;
             } else if (valueA.includes('M')) {
               numA = numA * 1000000;
             }
-            if (valueB.includes('k')) {
+            if (valueB.includes('K')) {
                 numB = numB * 1000;
               } else if (valueB.includes('M')) {
                 numB = numB * 1000000;
