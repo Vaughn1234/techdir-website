@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /images/
+Disallow: /tmp/
+
+User-agent: Googlebot
+Disallow: /no-googlebot/
+
+User-agent: Bingbot
+Disallow: /no-bingbot/
+
+Sitemap: https://technicaldirector.xyz/sitemap.xml
