@@ -17,6 +17,9 @@
     left: 0;
     z-index: 999;
 }
+h2 {
+  color: white;
+}
 body {
     background-color: #572ab4;
 }
@@ -194,3 +197,35 @@ body {
   tbody tr:hover {
     background-color: #6613ac;
   }
+  
+  .image-credit {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    font-size: 14px;
+    color: rgba(237, 237, 237, 0.6);
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid rgba(237, 237, 237, 0.6);
+    background-color: #572ab4;
+}
+.image-credit a {
+  color: rgba(237, 237, 237, 0.6);
+  text-decoration: underline;
+}
+
+.image-credit a:hover {
+  color: #fff; /* Change the color on hover as desired */
+  text-decoration: underline;
+}
+
+.text-box a {
+color: rgba(237, 237, 237, 0.6);
+text-decoration: underline;
+}
+
+.text-box a:hover {
+color: #fff; /* Change the color on hover as desired */
+text-decoration: underline;
+}
